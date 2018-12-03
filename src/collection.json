@@ -1,0 +1,13 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "schematics-tests": {
+      "description": "A blank schematic.",
+      "factory": "./schematics-tests/index#schematicsTests"
+    },
+    "ts-license": {
+      "description": "A blank schematic.",
+      "factory": "./ts-license/index#tsLicense"
+    }
+  }
+}
